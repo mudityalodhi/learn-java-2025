@@ -25,7 +25,8 @@ public class Naming {
         System.out.println("Tax: " + _tax);
 
         // 3. Cannot start with numbers → ❌ int 2value = 50;
-        // 4. Cannot use reserved keywords like `class`, `int`, `public` as variable names
+        // 4. Cannot use reserved keywords like `class`, `int`, `public` as variable
+        // names
         // 5. Use meaningful names (recommended)
     }
 }
