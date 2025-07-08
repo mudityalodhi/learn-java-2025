@@ -1,0 +1,49 @@
+📌 What is a Variable?
+A variable is used to store a value in memory.
+It is like a container that holds data which can change during program execution.
+
+Example:
+
+int age = 20;
+String name = "Muditya";
+Here, age and name are variables storing integer and string values.
+
+📌 What is I/O in Java?
+I/O stands for Input and Output:
+
+Input → Taking data from the user (keyboard)
+Output → Showing the result to the user (screen)
+
+Example:
+
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);       // Input
+int num = sc.nextInt();
+System.out.println("You entered: " + num); // Output
+
+📌 What is Type Casting?
+Type casting means converting one data type into another.
+
+There are two types of type casting:
+
+1️⃣ Widening Casting (Implicit):
+Small type → Larger type (no data loss)
+Java does it automatically.
+
+Example:
+
+int a = 10;
+float b = a; // int to float
+
+2️⃣ Narrowing Casting (Explicit):
+Large type → Smaller type (data may be lost)
+You have to do it manually.
+
+Example:
+
+float x = 9.8f;
+int y = (int) x; // float to int → value becomes 9
+
+🧠 Extra Tip:
+Always use explicit casting carefully, as data can get cut off or rounded.
