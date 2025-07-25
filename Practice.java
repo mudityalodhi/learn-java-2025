@@ -1,44 +1,37 @@
+import java.util.Scanner;
+
 public class Practice {
     public static void main(String[] args) {
 
-        // Arithmetic Operators
-        // int a = 10;
-        // int b = 5;
+        // for (int i = 1; i <= 100000; i *= 10) {
+        // System.out.println(i);
+        // }
 
-        // System.out.println(a + b); // 15
-        // System.out.println(a - b); // 5
-        // System.out.println(a * b); // 50
-        // System.out.println(a / b); // 2
-        // System.out.println(a % b); // 0
-        // System.out.println(a++); // 10
-        // System.out.println(a--); // 11
-        // System.out.println(a); // 10
+        // table of 7
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number : ");
+        int num = sc.nextInt();
 
-        // Assignment Operators
-        // int x = 10;
-        // System.out.println(x >>= 5);
+        // count digits of a given number
+        int count = 0;
+        int temp = num; // original number ko safe rakhne ke liye
 
-        // System.out.println(x += 5); // 15
-        // System.out.println(x -= 5); // 5
-        // System.out.println(x *= 5); // 50
-        // System.out.println(x /= 5); // 10
-        // System.out.println(x %= 5); // 0
+        while (temp > 0) {
+            temp = temp / 10; // last digit hata do
+            count++;
+        }
+        System.out.println("Digits count = " + count);
 
-        // Comparison operators
-        // int x = 10;
-        // int y = 5;
-        // System.out.println(x == y); // false
-        // System.out.println(x != y); // true
-        // System.out.println(x > y); // true
-        // System.out.println(x >= y); // true
-        // System.out.println(x < y); // false
-        // System.out.println(x <= y); // false
+        // sum of numbers till the input
+        // int sum = 0;
 
-        // Logical Operators
-        int x = 6;
+        // for (int i = 0; i <= num; i++) {
+        // sum += i;
+        // }
+        // System.out.println(sum);
 
-        System.out.println(x <= 5 && x <= 10);
-        System.out.println(x <= 5 || x <= 10);
-
+        // for (int i = 1; i <= 10; i++) {
+        // System.out.println(num + " x " + i + " = " + (i * num));
+        // }
     }
 }

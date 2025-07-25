@@ -1,0 +1,53 @@
+✅ 1D Array Practice Questions (Java)
+
+🔹 Level 1: Easy Logic Building
+
+1️⃣ Find the smallest element in an array
+🧠 Hint: Use min = arr[0], then compare each element.
+
+2️⃣ Find the second largest element
+🧠 Hint: Track both max and secondMax during loop.
+
+3️⃣ Count number of positive, negative & zero elements
+🧠 Hint: Use 3 counters in a single loop.
+
+4️⃣ Print only even numbers in array
+🧠 Hint: Use if (arr[i] % 2 == 0)
+
+5️⃣ Print only elements at even indices
+🧠 Hint: for (int i = 0; i < arr.length; i += 2)
+
+6️⃣ Count frequency of a given number
+🧠 Hint: Use if (arr[i] == key) → count++
+
+🔹 Level 2: Moderate + Common Interview
+
+7️⃣ Remove duplicates from array (print unique elements only)
+🧠 Hint: Use nested loop: compare arr[i] with arr[j]
+
+8️⃣ Check if array is sorted (ascending order)
+🧠 Hint: arr[i] > arr[i+1] → Not sorted
+
+9️⃣ Reverse the array without using another array
+🧠 Hint: Use swapping — arr[i] ↔ arr[n - i - 1]
+
+🔟 Swap first and last elements of array
+🧠 Hint: temp = arr[0]; arr[0] = arr[n-1]; arr[n-1] = temp;
+
+🔹 Level 3: Tricky / Smart Logic
+
+1️⃣1️⃣ Find the element which appears only once (rest all twice)
+🧠 Hint: XOR trick → int result = 0; result ^= arr[i];
+
+1️⃣2️⃣ Left rotate array by 1 position
+🧠 Hint: Store arr[0] in temp, shift all left, put temp at end.
+
+1️⃣3️⃣ Right rotate array by 2 positions
+🧠 Hint: Reverse method or shifting twice
+
+1️⃣4️⃣ Find sum of alternate elements
+🧠 Hint: for (int i = 0; i < n; i += 2) sum += arr[i];
+
+1️⃣5️⃣ Merge two arrays into a third one
+🧠 Hint: Make new array of size a.length + b.length
+

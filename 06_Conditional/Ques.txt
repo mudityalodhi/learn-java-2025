@@ -1,0 +1,78 @@
+# If-Else Practice Questions (Basic to Logic Building)
+
+Q1. Check if a number is positive, negative, or zero.✅
+🔸 Input: num = -5
+🔸 Output: Negative
+
+Q2. Check if a number is even or odd.✅
+🔸 Input: num = 10
+🔸 Output: Even
+
+Q3. Find the greatest of 3 numbers.✅
+🔸 Input: a = 4, b = 9, c = 2
+🔸 Output: 9 is greatest
+
+Q4. Check if a year is leap year or not.
+🔸 Input: year = 2024
+🔸 Output: Leap year
+
+Q5. Find grade from marks:✅
+>=90 → A
+>=80 → B
+>=70 → C
+>=60 → D
+else → F
+
+🔸 Input: marks = 85
+🔸 Output: Grade B
+
+# While Loop Practice Questions
+
+Q6. Print all numbers from 1 to N using while loop.✅
+🔸 Input: N = 10
+🔸 Output: 1 2 3 4 5 6 7 8 9 10
+
+Q7. Count the digits of a number.✅
+🔸 Input: num = 5432
+🔸 Output: Digits = 4
+
+Q8. Find sum of digits of a number.✅
+🔸 Input: 1234
+🔸 Output: 1 + 2 + 3 + 4 = 10
+
+Q9. Reverse a number.✅
+🔸 Input: num = 123
+🔸 Output: 321
+
+Q10. Check if a number is Palindrome✅
+🔸 Input: 121
+🔸 Output: Palindrome 
+
+# For Loop Practice Questions
+
+Q11. Print table of a number (like 7) ✅
+🔸 Output:
+7 x 1 = 7  
+7 x 2 = 14  
+...  
+7 x 10 = 70
+
+Q12. Print first N even numbers ✅
+🔸 Input: N = 5
+🔸 Output: 2 4 6 8 10
+
+Q13. Calculate factorial of a number ✅
+🔸 Input: 5
+🔸 Output: 120
+
+Q14. Find sum of 1 to N numbers✅
+🔸 Input: N = 10
+🔸 Output: 55
+
+Q15. Print pattern:
+
+*
+**
+***
+****
+*****

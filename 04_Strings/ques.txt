@@ -1,0 +1,53 @@
+String Practice Questions (Java)
+
+✅ Q1: Reverse a String
+Input: "hello"
+Output: "olleh"
+
+🔹 Try using: charAt(), loop, or StringBuilder.reverse()
+🔹 Think: How to loop string from end?
+
+✅ Q2: Check if String is Palindrome
+A string is a palindrome if it reads same from front & back.
+Input: "madam" → Output: true
+Input: "java" → Output: false
+
+🔹 Use: charAt() or StringBuilder
+🔹 Bonus: Ignore case and spaces too!
+
+✅ Q3: Count Vowels and Consonants
+Input: "Hello World"
+Output: Vowels: 3, Consonants: 7
+
+🔹 Vowels = a, e, i, o, u
+🔹 Use .toLowerCase() + loop + if conditions
+
+✅ Q4: Remove Duplicate Characters
+Input: "programming"
+Output: "progamin"
+
+🔹 Only first occurrence should remain
+🔹 Use: Set<Character> or indexOf()
+
+✅ Q5: Find the First Non-Repeating Character
+Input: "aabbcdde"
+Output: c
+
+🔹 Use: Map<Character, Integer> to count freq
+🔹 Then loop string again to find first with count = 1
+
+💡 Bonus Challenge
+Q6: Count frequency of each character in string
+
+Input: "apple" → Output: {a=1, p=2, l=1, e=1}
+🔹 Use: HashMap<Character, Integer>
+
+🔧 Tips for Solving:
+Use .charAt(i) to access characters
+
+Try both loop-based and StringBuilder based solutions
+
+Practice solving without using built-in methods first (logic building)
+
+Try to write reusable methods with proper naming and input/output
+
