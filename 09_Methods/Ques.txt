@@ -1,0 +1,33 @@
+🧠 Java Methods Practice Questions
+
+Q1. Write a method to print "Hello, Java!"✅
+👉 Non-parameterized method, no return type (void)
+
+Q2. Write a method that takes your name as input and prints "Hello, [Name]!"✅
+👉 Parameterized method (String name), no return type
+
+Q3. Write a method that returns the square of a number.✅
+👉 Parameterized (int number), returns int
+
+Q4. Write a method to check if a number is even or odd.✅
+👉 Parameterized (int num), returns boolean
+
+Q5. Write a method that takes two numbers and returns their sum.✅
+👉 Parameters: int a, int b → Return type: int
+
+Q6. Write a method to calculate the factorial of a number.✅
+👉 Use loop inside method, Parameter: int n, Return: int
+
+Q7. Write a method to reverse a given string.✅
+👉 Parameter: String str, Return type: String
+
+Q8. Write a method to check whether a string is palindrome or not.✅
+👉 Example: "madam" → true; "hello" → false
+Return type: boolean, Parameter: String
+
+Q9. Write a method that takes an integer array and returns the largest number in it.✅
+👉 Parameter: int[] arr, Return type: int
+
+Q10. Write a method that prints all even numbers from 1 to N.✅
+👉 Parameter: int n, Use loop, Return type: void
+
