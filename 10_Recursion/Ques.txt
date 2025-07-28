@@ -1,0 +1,72 @@
+Q1. Print numbers from 1 to N using recursion✅
+👉 Input: N = 5
+👉 Output: 1 2 3 4 5
+🧠 Hint:
+Base case: if n == 0 return
+Recursive case: print(n-1) then print n
+
+Q2. Print numbers from N to 1 using recursion✅
+👉 Input: N = 5
+👉 Output: 5 4 3 2 1
+🧠 Hint:
+Base case: if n == 0 return
+Recursive case: print n, then call print(n-1)
+
+Q3. Calculate factorial of a number using recursion✅
+👉 Input: N = 5
+👉 Output: 120
+🧠 Hint:
+Base case: if n == 0 or n == 1 → return 1
+Recursive: n * factorial(n - 1)
+
+Q4. Find sum of first N natural numbers using recursion✅
+👉 Input: N = 5
+👉 Output: 15
+🧠 Hint:
+Base case: if n == 0 return 0
+Recursive: return n + sum(n-1)
+
+Q5. Reverse a string using recursion
+👉 Input: “mudit”
+👉 Output: “tidum”
+🧠 Hint:
+Base case: if string is empty or 1 length, return
+Recursive: reverse(str.substring(1)) + str.charAt(0)
+
+🔥 Bonus Tip for Recursion:
+
+=> Hamesha 2 cheezein socho:
+Base case (kab stop karna hai?)
+Recursive case (kaise chhoti problem banti ja rahi?)
+
+Q6. Count digits of a number
+Input: 12345
+Output: 5
+🧠 Recursive: count(n/10) + 1
+🧠 Base: if n == 0 return 0
+
+Q7. Sum of digits of a number
+Input: 123
+Output: 6
+🧠 sumDigits(123) = 3 + sumDigits(12)
+🧠 Base: if n == 0 return 0
+
+Q8. Fibonacci number at Nth position
+Input: 5
+Output: 5 (0, 1, 1, 2, 3, 5)
+🧠 Recursive: fibo(n-1) + fibo(n-2)
+🧠 Base: if n == 0 return 0, if n == 1 return 1
+
+Q9. Check if string is palindrome
+Input: "madam"
+Output: true
+🧠 Compare first and last char
+🧠 Recursive: isPalindrome(str.substring(1, len - 1))
+🧠 Base: if str.length() <= 1 return true
+
+Q10. Power function (x^n)
+Input: 2^3
+Output: 8
+🧠 Recursive: power(x, n) = x * power(x, n-1)
+🧠 Base: if n == 0 return 1
+
