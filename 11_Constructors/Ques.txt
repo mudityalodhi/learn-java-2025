@@ -1,0 +1,15 @@
+Q1: Student Details ✅
+📝 Problem:
+Banao ek Student class jisme:
+name, rollNumber, grade ho
+Ek parameterized constructor ho jo in values ko set kare
+Ek method ho displayDetails() jo student ki detail print kare
+
+Q2: Rectangle Area & Perimeter
+📝 Problem:
+Rectangle class banao with:
+Fields: length, width
+Constructor: Initialize these values
+Methods:
+area() → return area
+perimeter() → return perimeter
