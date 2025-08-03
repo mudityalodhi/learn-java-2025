@@ -1,0 +1,45 @@
+🔹 1. Static Keyword
+✅ Question:
+Create a class Counter that has a static variable to count how many objects are created from it. Print the count after creating 3 objects.
+
+💡 Hint/Approach:
+Use a static variable like static int count = 0;
+Increase count in constructor
+Print count in main()
+
+🔹 2. Interface
+✅ Question:
+Create an interface Playable with a method play(). Implement this interface in two classes Guitar and Piano that print different messages.
+
+💡 Hint:
+Define void play(); inside interface
+Implement the method inside both classes
+Use polymorphism to call play() from both
+
+🔹 3. Abstract Class
+✅ Question:
+Create an abstract class Vehicle with an abstract method start(), and a concrete method fuelType(). Extend it in Car and Bike classes and implement start() differently.
+
+💡 Hint:
+Use abstract void start();
+Add void fuelType() { System.out.println("Fuel type: Petrol"); }
+
+🔹 4. Final Keyword
+✅ Question:
+Create a class University with a final variable name and a final method display(). Try to override display() in the child class and see what happens.
+
+💡 Hint:
+Use final String name = "ABC University";
+Final method can't be overridden
+Final variable can't be reassigned
+
+🔹 5. this Keyword
+✅ Question:
+Create a class Student with name and roll number as variables. Use this keyword in constructor to initialize them. Also add a method to display them.
+
+💡 Hint:
+Use:
+
+this.name = name;
+this.roll = roll;
+Call display method in main
